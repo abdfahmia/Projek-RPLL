@@ -105,7 +105,7 @@
                         <img src="<?= base_url('assets/frontend/img/varian/' . $a->gambar) ?>" alt="" class="menu__img">
                         <h3><?= $a->nama_produk ?></h3>
                         <span><?= $a->ukuran ?></span>
-                        <span>Rp.<?= number_format($a->harga, 0, '.', '.')?></span>
+                        <span>Rp <?= number_format($a->harga, 0, '.', '.')?></span>
                         <a href="<?= base_url('cart/tambah/' . $a->id_produk) ?>" class="button menu__button"><i class='bx bx-cart'></i></a>
                     </div>
                     <?php $i++ ?>
