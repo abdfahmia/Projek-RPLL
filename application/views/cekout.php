@@ -97,7 +97,7 @@
                 </table>
                 <h1>Alamat Pengiriman</h1>
                 <hr>
-                <form action="<?= base_url('cart/sukses') ?>" method="post">
+                <form action="<?= base_url('cart/sukses') ?>" method="post" target="_blank">
                     <input class="form-control" type="text" name="nama" Placeholder="Nama Penerima">
                     <hr>
                     <input class="form-control" type="text" name="no_telp" Placeholder="No Telp">
