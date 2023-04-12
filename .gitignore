@@ -29,3 +29,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+##file chatbot node modules
+chatbotwa/node_modules
+chatbotwa/session.json
